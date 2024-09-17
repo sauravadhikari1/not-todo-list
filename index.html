@@ -55,22 +55,11 @@
                                 <div class="col-md-6 text-center">
                                     <h3>Bad List</h3><hr>
                                     <table class="table table-hover">
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Task 1</td>
-                                                <td>10hrs</td>
-                                                <td class="text-end">
-                                                    <button type="button" class="btn btn-warning"><i
-                                                            class="fa-solid fa-arrow-left"></i></button>
-                                                    <button type="button" class="btn btn-danger"><i
-                                                            class="fa-solid fa-trash"></i></button>
-                
-                                                </td>
-                                            </tr>
+                                        <tbody id="badlist">
+                                           
                                         </tbody>
                                         </table>
-                                        <div class="alert alert-danger" role="alert">
+                                        <div class="alert alert-danger" role="alert" id="bad-hours">
                                             You could have saved = 0 hrs
                                         </div>
                                         </div>
@@ -80,8 +69,8 @@
         <div class="container mt-4">
             <div class="row">
                 <div class="col">
-                    <div class="alert alert-success" role="alert">
-                        The total hours allocated = 20 hours
+                    <div class="alert alert-success " role="alert" id="total-hours">
+                        The total hours allocated = 0 hours
                     </div>
                 </div>
             </div>
